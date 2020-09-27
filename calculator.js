@@ -1,10 +1,10 @@
-let firtst =5 , second = 4, oper = "-";
+let first =5 , second = 4, oper = "-";
 
 if (oper == "+"){
-    console.log(firtst+second)
+    console.log(first, oper, second,"=",first+second)
 } else if (oper == "-"){
-    console.log(firtst-second)
+    console.log(first, oper, second,"=",first-second)
 } else if (oper == "*"){
-    console.log(firtst*second)
+    console.log(first, oper, second,"=",first*second)
 } else if (oper == "/")
-    console.log(firtst/second)
+    console.log(first, oper, second,"=",first/second)
